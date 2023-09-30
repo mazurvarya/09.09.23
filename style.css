@@ -1,31 +1,59 @@
 div {
-    width: 400px;
-    height: 200px;
-    background-color: rgb(137, 5, 82);
-    margin-top: 20px;
-    border: 6px solid rgb(62, 0, 128);
-  }
-  .purple {
-    background-color: rgb(208, 0, 255);
-    width: 250px;
-    height: 350px;
-    margin-top: 25px;
-    border: 2px solid black;
-  }
-  .blue {
-    background-color: rgb(10, 10, 134);
-    width: 300px;
-    height: 350px;
-    margin-top: 30px;
-    border: 6px solid purple;
-  }
-  .purple img{
-    width: 250px;
-  }
-  .blue img{
-    width: 300px;
-  }
-  .blue h3 {
-    font-size: 20px;
-    color: pink;
-  }
+  width: 400px;
+  height: 200px;
+  background-color: rgb(137, 5, 82);
+  margin-top: 20px;
+  border: 6px solid rgb(62, 0, 128);
+}
+
+.purple {
+  background-color: rgb(208, 0, 255);
+  width: 250px;
+  height: 350px;
+  margin-top: 25px;
+  border: 2px solid black;
+}
+
+.blue {
+  background-color: rgb(10, 10, 134);
+  width: 300px;
+  height: 350px;
+  margin-top: 30px;
+  border: 6px solid purple;
+}
+
+.purple img {
+  width: 250px;
+}
+
+.blue img {
+  width: 300px;
+}
+
+.blue h3 {
+  font-size: 20px;
+  color: pink;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(126, 94, 51);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: rgb(255, 233, 172);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.block {
+  background-color: rgb(61, 35, 3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
