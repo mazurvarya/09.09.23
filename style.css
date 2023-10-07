@@ -1,13 +1,13 @@
 div {
   width: 400px;
   height: 200px;
-  background-color: rgb(137, 5, 82);
+  background-color: rgb(255, 191, 113);
   margin-top: 20px;
-  border: 6px solid rgb(62, 0, 128);
+  border: 6px solid rgb(72, 110, 18);
 }
 
 .purple {
-  background-color: rgb(208, 0, 255);
+  background-color: rgb(81, 93, 111);
   width: 250px;
   height: 350px;
   margin-top: 25px;
@@ -15,11 +15,11 @@ div {
 }
 
 .blue {
-  background-color: rgb(10, 10, 134);
+  background-color: rgb(117, 73, 42);
   width: 300px;
-  height: 350px;
+  height: 200px;
   margin-top: 30px;
-  border: 6px solid purple;
+  border: 6px solid rgb(81, 56, 81);
 }
 
 .purple img {
@@ -56,4 +56,21 @@ a {
   height: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.hidden-block {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: bisque;
+  opacity: 0;
+  display: flex;
+  transition: 0.5s;
+  transform: scale(0);
+  align-items: center;
+  justify-content: center;
+}
+#check:checked ~ .hidden-block {
+  opacity: 100;
+  transform: scale(1);
 }
